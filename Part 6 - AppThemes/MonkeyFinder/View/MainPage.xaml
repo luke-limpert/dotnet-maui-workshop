@@ -10,6 +10,7 @@
     Title="Monkeys"
     x:DataType="viewmodel:MonkeysViewModel">
     <Grid
+        BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}"
         ColumnDefinitions="*,*"
         ColumnSpacing="5"
         RowDefinitions="*,Auto"
